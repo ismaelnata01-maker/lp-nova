@@ -128,9 +128,6 @@ nav{
 }
 
 #s4{
-    /*height: 100vh;
-    padding-top: 80px;*/
-
     height: 100vh;
     padding-top: 80px;
     flex-wrap: wrap;
@@ -191,6 +188,52 @@ i{
 
 i:hover{
     transform: translateY(-5px) scale(1.1);
+}
+
+#s5{
+    display: flex;
+    min-height: 80vh;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.formulario{
+    background-color: red;
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.formulario label{
+    width: 100%;
+    padding: 10px;
+}
+
+.formulario input{
+    width: 100%;
+    padding: 10px;
+}
+
+.formulario textarea{
+    max-width: 100%;
+    width: 255px;
+    min-width: 255px;
+    padding: 10px;
+}
+
+.formulario button{
+    width: 100%;
+    padding: 10px;
 }
 
 @media (width <= 1000px){
